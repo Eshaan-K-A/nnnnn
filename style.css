@@ -1,0 +1,11 @@
+body{
+    background-color: blue;
+}
+.firstImageClass{
+    height: 320px !important;
+    width: 620px;
+}
+.secondImageClass{
+    height: 320px !important;
+    width: 570px;
+}

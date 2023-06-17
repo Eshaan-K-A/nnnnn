@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Father's Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        #firstImageId {
+            height: auto;
+            width: 52.57%;
+            max-width: 100%;
+            border: 20px solid #87CEEB;
+            border-radius: 30px;
+        }
+
+        #secondImageId {
+            height: auto;
+            width: 44%;
+            max-width: 100%;
+            border: 20px solid #87CEEB;
+            border-radius: 30px;
+        }
+
+        #thirdImageId {
+            width: 45%;
+            height: auto;
+            border: 20px solid #87CEEB;
+            border-radius: 30px;
+        }
+
+        #fourthImageId {
+            width: 45%;
+            height: auto;
+            border: 20px solid #87CEEB;
+            border-radius: 30px;
+        }
+
+        audio {
+            width: 80%;
+            height: 60px;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #0215a3, #87CEEB);
+            /* Replace with your desired gradient colors */
+        }
+    </style>
+
+    <style>
+        .thought {
+            color: #0215a3;
+            /* Complementary color */
+            background-color: #87CEEB;
+            /* Background color */
+            font-family: "Roboto", sans-serif;
+            /* Modern font */
+            font-size: 22px;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            /* Border radius */
+            width: 75%;
+        }
+
+        .header {
+            font-family: "Arial", sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #56c3ee;
+            padding: 20px;
+            text-align: center;
+            border-radius: 30px;
+            width: fit-content;
+        }
+
+        @media (max-width: 768px) {
+
+            /* Adjustments for smaller screens */
+            #firstImageId,
+            #secondImageId,
+            #thirdImageId,
+            #fourthImageId {
+                width: 100%;
+                height: auto;
+            }
+
+            .thought {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            /* Adjustments for even smaller screens */
+            .thought {
+                width: 100%;
+            }
+        }
+
+        .circularImage {
+            border-radius: 50%;
+            border: 15px solid #05b8ff;
+            /* Replace with your desired border color */
+            margin-top: 20px;
+            width: 300px;
+            /* Adjust the width to your preference */
+            height: 300px;
+            /* Adjust the height to your preference */
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1 class="header">Happy Father's Day!</h1>
+    </center>
+    <center>
+        <div id="firstDivId" class="firstDivClass">
+            <img src="1.jpg" id="firstImageId" class="firstImageClass">
+            <img src="2.jpg" id="secondImageId" class="secondImageClass">
+            <br><br>
+            <img src="3.jpg" id="thirdImageId" class="thirdImageClass">
+            <img src="4.jpeg" id="fourthImageId" class="fourthImageClass">
+        </div>
+    </center>
+    <br>
+    <br>
+    <center>
+        <audio src="nnnnnnnnnnnnnnn.mp3" controls></audio>
+    </center>
+    <br>
+    <center>
+        <img src="Nanna.png" alt="Nanna" class="circularImage">
+    </center>
+
+    <center>
+        <p class="thought">
+            <b>Dad</b>, your passion for <b>teaching</b> and dedication to whatever you do, inspires me every day. I'm
+            grateful to have such an amazing role model in my life. Your <b>knowledge</b>, <b>guidance</b>, and support
+            have shaped me into the Eshaan I am today. Thank you for always encouraging me to pursue my dreams and for
+            being there every step of the way.
+        </p>
+    </center>
+
+
+    <br>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
